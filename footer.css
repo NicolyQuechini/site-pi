@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+footer{
+    position: relative;
+    bottom: 0%;
+}
+
+
+/* Estilo do footer */
+footer {
+    background-color: #172B51;
+    /* Cor de fundo do footer */
+    padding: 20px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinha o conteúdo no centro */
+    position:absolute;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: -1%;
+}
+
+
+/* Estilo do link */
+footer a {
+    display: inline-block;
+    /* Faz o link se comportar como um bloco (imagem clicável) */
+}
+
+/* Estilo da imagem */
+footer .footer-img {
+    width: 150px;
+    /* Largura da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    transition: transform 0.3s ease;
+    /* Transição suave para efeito de hover */
+    color: white;
+    margin-left: 0%;
+}
+
+footer a:hover .footer-img1 {
+    transform: scale(1.3);
+    /* Aumenta a imagem quando passa o mouse */
+}
+
+footer a:hover .footer-img2 {
+    transform: scale(1.3);
+    /* Aumenta a imagem quando passa o mouse */
+}
+
+.footer-img1{
+    height: 30px ;
+    width: auto;
+}
+
+footer .footer-img{
+    position: relative;
+    height: 30px;
+    width: auto;
+}
+
+.footer-img2{
+    height: 30px ;
+    width: auto;
+    margin-left: 10px;
+    align-items: relative;
+}
+
+p{
+    font-size: 12px;
+    font-family: "oswald", sans-serif;
+    color:white;
+    margin-top: -20px;
+}
+
+.footer-img3{
+    height: 80px ;
+    width: auto;
+    margin-right: 30px;
+    align-items: absolute;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.ifc{
+    height: 60px ;
+    width: auto;
+    align-items: absolute;
+    display: flex;
+    margin-top: -65px;
+    margin-left: 1250px;
+}

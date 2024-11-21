@@ -1,0 +1,517 @@
+/* header*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&display=swap');
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 12%;
+  top: 0;
+  background-color: #075760;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 65%;
+  font-family: "Oswald", sans-serif;
+  
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin-top: 3%;
+}
+
+.menu>img {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  transform: translate(150px, -20%);
+  margin-top: 1%;
+}
+
+.menu ul li {
+  margin: 0 20px;
+  margin-top: -6%;
+  margin-left: 10%;
+
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #ffffff;
+}
+
+.imagem1 {
+  margin-top: 0%;
+  width: 100%;
+  height: auto;
+
+}
+
+#titulo-resumo h1 {
+  margin-top: 350px;
+}
+
+
+/* .resumoheader {
+  margin-right: 0%;
+}
+
+.midiasheader {
+  margin-left: 10%;
+}
+
+.esportesheader {
+  margin-left: 10%;
+}
+
+.videosheader {
+  margin-left: 10%;
+
+} */
+
+.ms {
+  position: relative;
+  z-index: 10;
+  margin-top: -600px !important;
+  color: #ffffff;
+  margin: 200px;
+  font-size: 150px;
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  opacity: 85%;
+}
+
+.sc {
+  position: relative;
+  z-index: 10;
+  margin-top: -330px !important;
+  color: #ffffff;
+  margin: 200px;
+  font-size: 150px;
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  opacity: 85%;
+}
+
+
+#seta {
+  position: relative;
+  z-index: 10;
+  margin-top: -100px !important;
+  color: #ffffff;
+  width: 200px;
+  height: auto;
+  margin-left: 675px;
+
+}
+
+/* Estilos das Seções */
+
+.container {
+  background-color: #44628E;
+}
+
+
+.titulo-resumo {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 2%;
+  font-family: "oswald", sans-serif;
+}
+
+.resumo {
+  position: relative;
+}
+
+.conteúdo-resumo {
+  margin-left: 200px;
+}
+
+.resumo h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 1%;
+  font-family: "oswald", sans-serif;
+  font-size: 35px;
+  text-align: start;
+  margin-right: 60%;
+}
+
+.conteudo-resumo-1,
+.conteudo-resumo-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.conteudo-resumo-1 {
+  flex-direction: row;
+  text-align: center;
+}
+
+.texto-resumo1 p {
+  font-size: 25px;
+  text-align: start;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+
+.texto-resumo2 p {
+  font-size: 25px;
+  text-align: start;
+  margin-right: 20%;
+
+}
+
+.texto-resumo1 .texto-resumo2 {
+  max-width: 50%;
+
+  padding: 5px;
+
+
+}
+
+.imagem-resumo1 {
+  width: 600px;
+  height: auto;
+  margin-right: 7%;
+}
+
+.imagem-resumo2 {
+  width: 500px;
+  height: auto;
+  margin-right: 10%;
+}
+
+/*videos*/
+
+
+
+/*-----Esportes----*/
+.seção-esportes {
+  width: 100%;
+  height: 15cm;
+  margin: 0%;
+  font-family: "oswald", sans-serif;
+  background-color: #21334D;
+  color: #ffffff;
+  margin-top: 20%;
+}
+
+.titulo-esportes {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container2 {
+  display: flex;
+  gap: 170px;
+  justify-content: center;
+
+
+}
+
+/* .coluna1,
+.coluna2 {
+  flex: 1;
+  max-width: 650px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2a4264;
+} */
+
+.titulo-Efeitos h3,
+.titulo-marketing h3 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.article-content p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  width: 500px;
+  margin-top: 1%;
+}
+
+.marketing-conteudo p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  width: 500px;
+  margin-top: 1%;
+}
+
+/* Carrossel */
+#carrossel {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.titulo-carrossel {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ff62a9;
+}
+
+.carrossel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid #ff8eaa;
+  border-radius: 8px;
+}
+
+.carrossel {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carrossel img {
+  width: 100%;
+  flex-shrink: 0;
+  height: 300px;
+  object-fit: cover;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button:hover {
+  background-color: #ff8eaa;
+}
+
+/*videos*/
+
+
+
+.videos-section {
+  /* align-items: center; */
+  font-size: 30px;
+  color: white;
+  margin-bottom: 5%;
+  text-align: center;
+  background-color: #44628E;
+  width: 100%;
+  height: 23cm;
+  margin-top: 3%;
+  font-family: 'oswald', sans-serif;
+
+}
+
+.videos1 {
+  display: flex;
+  width: 500px;
+  height: auto;
+  margin-top: 5%;
+
+}
+
+.video-container {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.6;
+  /* width: 400px;
+  height: auto; */
+  margin-top: 1%;
+  margin-left: 60px;
+  gap: 170px;
+  /* justify-content: center; */
+}
+
+.video-container2 {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  /* width: 500px;
+  height: auto; */
+  margin-top: 1%;
+  margin-left: 15%;
+  justify-content: end;
+}
+
+/* .descricao-texto {
+  font-size: 16px;
+  color: #555;
+  text-align: justify;
+  max-width: 48%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+} */
+.videos-section p {
+  padding-top: 5%;
+  margin-bottom:50%;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: justify;
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+
+}
+
+.videos-section h2{
+  padding-top: 2%;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Estilização responsiva */
+@media (min-width: 768px) {
+  .videos1 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
+/* Rodapé */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+footer {
+  position: relative;
+  bottom: 0%;
+}
+
+
+/* Estilo do footer */
+footer {
+  background-color: #172B51;
+  /* Cor de fundo do footer */
+  padding: 20px;
+  /* Espaçamento interno */
+  text-align: center;
+  /* Alinha o conteúdo no centro */
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 0%;
+}
+
+
+/* Estilo do link */
+footer a {
+  display: inline-block;
+  /* Faz o link se comportar como um bloco (imagem clicável) */
+}
+
+/* Estilo da imagem */
+footer .footer-img {
+  width: 150px;
+  /* Largura da imagem */
+  height: auto;
+  /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease;
+  /* Transição suave para efeito de hover */
+  color: white;
+  margin-left: 0%;
+}
+
+footer a:hover .footer-img1 {
+  transform: scale(1.3);
+  /* Aumenta a imagem quando passa o mouse */
+}
+
+footer a:hover .footer-img2 {
+  transform: scale(1.3);
+  /* Aumenta a imagem quando passa o mouse */
+}
+
+.footer-img1 {
+  height: 30px;
+  width: auto;
+}
+
+footer .footer-img {
+  position: relative;
+  height: 30px;
+  width: auto;
+}
+
+.footer-img2 {
+  height: 30px;
+  width: auto;
+  margin-left: 10px;
+  align-items: relative;
+}
+
+p {
+  font-size: 12px;
+  font-family: "oswald", sans-serif;
+  color: white;
+  margin-top: -20px;
+}
+
+.footer-img3 {
+  height: 80px;
+  width: auto;
+  margin-right: 30px;
+  align-items: absolute;
+  display: flex;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.ifc {
+  height: 60px;
+  width: auto;
+  align-items: absolute;
+  display: flex;
+  margin-top: -65px;
+  margin-left: 1250px;
+}

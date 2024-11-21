@@ -1,0 +1,74 @@
+body{
+    background-color: #44628E;
+}
+
+h1{
+    color: white;
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2, h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #44628E;
+}
+
+.text-section {
+    flex: 2;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.column {
+    background-color: #44628E;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+.titulo-Efeitos h3,
+.titulo-marketing h3 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 5%;
+}
